@@ -49,24 +49,24 @@
                     <h1 class="nav-f display-2 ms-3 mt-2 text-white">Delivery</h1>
                 </span>
 
-                <form class="row g-3">
+                <form class="row g-3 pb-3">
                     <div class="col-md-6">
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="inputPassword4" placeholder="Full Name">
+                      <input type="text" class="form-control" id="inputPassword4" placeholder="Full Name" required>
                     </div>
                     <div class="col-12">
-                      <input type="text" class="form-control" placeholder="Address">
+                      <input type="text" class="form-control" placeholder="Address" required>
                     </div>
                     <div class="col-12">
-                      <input type="number" class="form-control" id="inputAddress2" placeholder="Mobile or Home Number">
+                      <input type="number" class="form-control" id="inputAddress2" placeholder="Mobile or Home Number" required>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" placeholder="City">
+                      <input type="text" class="form-control" placeholder="City" required>
                     </div>
                     <div class="col-md-4">
-                      <select class="form-select" aria-placeholder="Province">
+                      <select class="form-select" aria-placeholder="Province" required>
                         <option selected>Choose</option>
                         <option>NCR</option>
                         <option>Batangas</option>
@@ -85,10 +85,14 @@
                         </label>
                       </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-6">
                       <button type="submit" class="btn btn-primary">Submit</button>
+                      <a href="menu.html">
+                        <button class="btn" type="button">Go to Menu</button>
+                      </a>
                     </div>
-                  </form>
+                </form>
+
             </div>
         </div>
     </main>
