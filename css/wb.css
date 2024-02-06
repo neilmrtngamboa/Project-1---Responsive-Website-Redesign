@@ -28,3 +28,12 @@
 .card-1p{
     size: 20rem;
 }
+
+.ftr{
+    background-color: rgb(255, 255, 255);
+}
+
+.ftr-links{
+    color: red;
+    text-decoration: none;
+}
